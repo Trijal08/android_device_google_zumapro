@@ -364,6 +364,9 @@ PRODUCT_COPY_FILES += \
     device/google/zumapro/product-permissions-stock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/product-permissions-stock.xml
 endif
 
+PRODUCT_COPY_FILES += \
+	device/google/zumapro/system_ext-permissions-stock.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/system_ext-permissions-stock.xml
+
 # Fingerprint
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
