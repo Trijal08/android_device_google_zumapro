@@ -17,6 +17,7 @@ TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a
 TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_VARIANT := cortex-a55
+TARGET_HAS_ARM_MTE := true
 
 BOARD_BOOTCONFIG += \
     androidboot.boot_devices=13200000.ufs
