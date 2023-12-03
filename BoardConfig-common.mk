@@ -14,9 +14,9 @@ include device/google/zumapro/BoardConfig-16k-common.mk
 endif
 
 TARGET_ARCH := arm64
-TARGET_ARCH_VARIANT := armv8-2a
+TARGET_ARCH_VARIANT := armv8-2a-dotprod
 TARGET_CPU_ABI := arm64-v8a
-TARGET_CPU_VARIANT := cortex-a55
+TARGET_CPU_VARIANT := cortex-a76
 TARGET_HAS_ARM_MTE := true
 BOARD_KERNEL_CMDLINE += bootloader.pixel.MTE_FORCE_ON
 
