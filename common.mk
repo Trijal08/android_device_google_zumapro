@@ -378,6 +378,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.location.gps.prebuilt.xml
 
+# Pixel Camera
+$(call inherit-product-if-exists, vendor/google/camera/camera.mk)
+
 # Lineage Health
 include hardware/google/pixel/lineage_health/device.mk
 
