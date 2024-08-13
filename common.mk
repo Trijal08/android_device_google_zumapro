@@ -464,5 +464,8 @@ PRODUCT_COPY_FILES += \
 # Touch
 include hardware/google/pixel/touch/device.mk
 
+# UDFPS
+TARGET_HAS_UDFPS := true
+
 # ZRAM writeback
 include hardware/google/pixel/mm/device_gki.mk
