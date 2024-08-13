@@ -311,6 +311,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ANGLE
 
+# AudioFX
+TARGET_EXCLUDES_AUDIOFX := true
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.prebuilt.xml \
