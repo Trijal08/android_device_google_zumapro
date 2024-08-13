@@ -378,6 +378,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.location.gps.prebuilt.xml
 
+# Google Face Unlock
+$(call inherit-product-if-exists, vendor/google/faceunlock/config.mk)
+
 # Pixel Camera
 $(call inherit-product-if-exists, vendor/google/camera/camera.mk)
 
