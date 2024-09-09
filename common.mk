@@ -384,6 +384,9 @@ $(call inherit-product-if-exists, vendor/google/faceunlock/config.mk)
 # Pixel Camera
 $(call inherit-product-if-exists, vendor/google/camera/camera.mk)
 
+# DeviceAsWebcam
+TARGET_BUILD_DEVICE_AS_WEBCAM := true
+
 # Lineage Health
 include hardware/google/pixel/lineage_health/device.mk
 

@@ -1,0 +1,2 @@
+    <!-- Whether to default to HQ mode. default: false -->
+    <bool name="config_HighQualityVideoDefault" translatable="false">true</bool>
