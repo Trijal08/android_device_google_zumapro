@@ -38,7 +38,7 @@ BOARD_KERNEL_CMDLINE += \
     disable_dma32=on \
     sysctl.kernel.sched_pelt_multiplier=4 \
     rodata=on \
-    kasan=off \
+    kasan.fault=panic kasan.mode=asymm \
     at24.write_timeout=100 \
     log_buf_len=1024K \
     android_arch_task_struct_size=512
