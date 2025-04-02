@@ -1,3 +1,7 @@
 allow audioserver audio_device:chr_file r_file_perms;
 
 dontaudit audioserver hal_power_stats_service:service_manager find;
+
+# ViPER4AndroidFX sepolicy
+allow audioserver unlabeled:file { read write open getattr };
+allow hal_audio_default hal_audio_default:process { execmem };
