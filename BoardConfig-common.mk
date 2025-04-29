@@ -40,7 +40,7 @@ BOARD_KERNEL_CMDLINE += \
     sysctl.kernel.sched_pelt_multiplier=4 \
     aoc_core.aoc_enable_gsa_boot=1 \
     rodata=on \
-    kasan.fault=panic kasan.mode=asymm \
+    kasan.fault=panic \
     at24.write_timeout=100 \
     log_buf_len=1024K \
     android_arch_task_struct_size=512
