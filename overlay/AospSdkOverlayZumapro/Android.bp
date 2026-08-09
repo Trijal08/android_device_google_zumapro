@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "FrameworkResOverlayLineageZumapro",
-    product_specific: true,
+    name: "AospSdkOverlayZumapro",
+    vendor: true,
 }
